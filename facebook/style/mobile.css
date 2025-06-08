@@ -26,6 +26,9 @@ main > section > form > input.textbox{
 main > section > form > input#login{
     border-radius: 25px;
 }
+main > section > p#warn{
+    margin: 8px 0px;
+}
 main > section > section > a{
     display: block;
 }
@@ -34,10 +37,10 @@ main > section > section > a:hover{
 }
 main > section > section > a#forgot_password{
     color: black;
-    margin-top: -30px;
+    margin-top: -2px;
 }
 main > section > section > a#Creat_account{
-    margin-top: 30px;
+    margin-top: 15px;
     padding: 17px;
     border-radius: 25px;
     border: 1px solid var(--maincolor);
