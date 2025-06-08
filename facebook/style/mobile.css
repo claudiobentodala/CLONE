@@ -4,6 +4,38 @@
     --maincolor: #0667f8;
 }
 
+body{
+    background-color: white;
+}
+
 main{
     width: 95vw;
+}
+main > section{
+    box-shadow: 0px 0px 0px transparent;
+}
+main > section > p{
+    color: transparent;
+    margin-bottom: -30px;
+}
+main > section > form > input.textbox{
+    border-radius: 10px;
+    height: 62px;
+    border: 1.7px solid black;
+}
+main > section > form > input#login{
+    border-radius: 25px;
+}
+main > section > section > a{
+    display: block;
+}
+main > section > section > a#forgot_password{
+    color: black;
+    margin-top: -30px;
+}
+main > section > section > a#Creat_account{
+    margin-top: 30px;
+    padding: 17px;
+    border-radius: 25px;
+    border: 1px solid var(--maincolor);
 }
