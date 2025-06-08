@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>log in facebook</title>
+    <title>facebook - log in or sign up</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mobile.css" media="screen and (max-width: 741px)">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <main>
         <h1 translate="no">facebook</h1>
         <section>
-            <p>login on <span translate="no">facebook</span></p>
+            <p>log in on <span translate="no">facebook</span></p>
             <form action="#" method="get">
                 <input type="text" name="email_number" id="iemail_numbe" class="textbox" placeholder="Email or phone">
                 <input type="password" name="password" id="ipassword" class="textbox" placeholder="Password">
-                <input type="submit" value="Login" id="login">
+                <input type="button" value="Log in" id="login" onclick="warn()">
             </form>
+            <p id="warn">_</p>
             <section>
-                <a href="index.html">Forgot your password?</a>
-                <a href="index.html">sign up in <span translate="no">Facebook</span></a>
+                <a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzQ5MzkxMDIwLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login&next">Forgot password?</a>
+                <a href="https://www.facebook.com/r.php?entry_point=login">Creat new account</a>
             </section>
         </section>
     </main>
+    
+    <script src="script/form_verify.js"></script>
 </body>
 </html>

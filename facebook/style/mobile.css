@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+:root{
+    --maincolor: #0667f8;
+}
+
+main{
+    width: 95vw;
+}
