@@ -8,11 +8,11 @@
 }
 
 :root{
-    --maincolor: #0667f8;
+    --maincolor: #0866ff;
 }
 
 body{
-    background-color: #f5eeee;
+    background-color: #f0f2f5;
 }
 
 main{
@@ -70,7 +70,6 @@ main > section > section{
 }
 main > section > section > a{
     text-decoration: none;
-    font-weight: lighter;
     color: var(--maincolor);
 }
 main > section > section > a:hover{
