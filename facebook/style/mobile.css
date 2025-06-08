@@ -21,7 +21,7 @@ main > section > p{
 main > section > form > input.textbox{
     border-radius: 10px;
     height: 62px;
-    border: 1.7px solid black;
+    border: 1.2px solid black;
 }
 main > section > form > input#login{
     border-radius: 25px;
