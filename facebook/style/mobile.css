@@ -29,6 +29,9 @@ main > section > form > input#login{
 main > section > section > a{
     display: block;
 }
+main > section > section > a:hover{
+    text-decoration: none;
+}
 main > section > section > a#forgot_password{
     color: black;
     margin-top: -30px;
