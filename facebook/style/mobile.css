@@ -23,7 +23,7 @@ main > section > form > input.textbox{
     height: 62px;
     border: 1.2px solid black;
 }
-main > section > form > section > input#login{
+main  input#login{
     border-radius: 25px;
 }
 main > section > p#warn{
@@ -35,7 +35,7 @@ main > section > section > a{
 main > section > section > a:hover{
     text-decoration: none;
 }
-main > section > section > a#forgot_password{
+main  a#forgot_password{
     color: black;
     margin-top: -2px;
 }

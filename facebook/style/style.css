@@ -10,6 +10,9 @@
 :root{
     --maincolor: #0866ff;
 }
+a:visited{
+    color: var(--maincolor);
+}
 
 body{
     padding-top: 30px;
@@ -36,32 +39,29 @@ main > section{
     border-radius: 10px;
     background-color: white;
 }
-main > section > form > input{
+main input{
     display: block;
 }
-main > section > form > input.textbox{
+main input.textbox{
     padding-left: 10px;
     width: 100%;
     height: 50px;
     margin: 15px 0px;
     font-size: 20px;
 }
-main > section > form > input.textbox:focus{
+main input.textbox:focus{
     outline: 1.5px solid var(--maincolor);
 }
-main > section > form > section > input#login{
+main input#login{
     width: 100%;
     height: 50px;
     border: transparent;
     background-color: var(--maincolor);
-    cursor: pointer;
-}
-main > section > form > section > p{
     font-size: 20px;
     font-weight: bold;
     color: white;
-    transform: translate(0, -36px);
     text-align: center;
+    cursor: pointer;
 }
 main > section > p#warn{
     color: transparent;
@@ -85,7 +85,7 @@ section#worg_password{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     width: 100vw;
@@ -112,9 +112,6 @@ section#worg_password > article > div > h2{
 section#worg_password > article > div > p{
     color: #616161;
     margin-bottom: 20px;
-}
-section#worg_password > article > div{
-    
 }
 section#worg_password > article > div > a{
     display: block;
