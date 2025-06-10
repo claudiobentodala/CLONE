@@ -117,6 +117,7 @@ section#worg_password > article > div > a{
     display: block;
     text-decoration: none;
     padding: 14px;
+    color: var(--maincolor);
 }
 section#worg_password > article > div > a#forgot{
     width: 100%;
