@@ -23,7 +23,7 @@ main > section > form > input.textbox{
     height: 62px;
     border: 1.2px solid black;
 }
-main > section > form > input#login{
+main > section > form > section > input#login{
     border-radius: 25px;
 }
 main > section > p#warn{
