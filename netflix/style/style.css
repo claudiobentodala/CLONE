@@ -17,7 +17,7 @@ main{
     background-size: cover;
 }
 
-main > div#black{
+main > div#warn{
     background-color: #00000044;
 }
 
