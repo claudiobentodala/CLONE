@@ -80,3 +80,48 @@ main > section > section > a{
 main > section > section > a:hover{
     text-decoration: underline;
 }
+section#worg_password{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0000005b;
+}
+section#worg_password > article{
+    position: absolute;
+    transform: translate(0,-55%);
+    width: 300px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+}
+section#worg_password > article > div#text{
+    padding: 30px;
+    padding-bottom: 0;
+}
+section#worg_password > article > div > h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+section#worg_password > article > div > p{
+    color: #616161;
+    margin-bottom: 20px;
+}
+section#worg_password > article > div{
+    
+}
+section#worg_password > article > div > a{
+    display: block;
+    text-decoration: none;
+    padding: 14px;
+}
+section#worg_password > article > div > a#forgot{
+    width: 100%;
+    border: 1px solid gray;
+}
