@@ -4,39 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NETFLIX | login and sign up</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mobile.css" media="screen and (max-width: 741px)">
 </head>
 <body>
-    <header>
-        <img src="image/logo.png" alt="logo-netflix">
-    </header>
     <main>
-        <h2>sign in</h2>
-        <form action="#" method="get">
-            <input type="text" name="email_number" id="iemail_number">
-            <input type="password" name="password" id="ipassword">
-            <input type="button" translate="no" value="sign in" id="signin">
-        </form>
-        <p>or</p>
-        <a href="">use a sign-in code</a>
-        <a href="">forgot password?</a>
-        <div>
-            <input type="checkbox" name="remenber" id="iremenber">
-            <label for="iremenber">Remenber me</label>
-        </div>
-        <div>
-            <p>Now to Netflix?</p>
-            <a href="">Sign up now</a>
-        </div>
+        <div id="black"></div>
+        <section>
+            <img src="image/logo.png" alt="logo-netflix">
+        </section>
+        <section id="main">
+            <h2>sign in</h2>
+            <form action="#" method="get">
+                <input type="text" name="email_number" class="text_box" id="iemail_number" placeholder="Email or mobile number">
+                <input type="password" name="password" class="text_box" id="ipassword" placeholder="Password">
+                <input type="button" translate="no" value="sign in" id="signin">
+            </form>
+            <p>or</p>
+            <input type="button" value="use a sign-in code" translate="no" id="signincode">
+            <a href="" id="forgot">forgot password?</a>
+            <div>
+                <input type="checkbox" name="remenber" id="iremenber" checked>
+                <label for="iremenber">Remenber me</label>
+            </div>
+            <div>
+                <p>Now to Netflix?</p>
+                <a href="">Sign up now</a>
+            </div>
+        </section>
     </main>
     <footer>
-        <p>Questions? Content us.</p>
         <section>
-            <a href="">FAQ</a>
-            <a href="">help center</a>
-            <a href="">term of use</a>
-            <a href="">privacy</a>
-            <a href="">cookie preferencie</a>
-            <a href="">corporate imformation</a>
+            <p>Questions? Content us.</p>
+            <article>
+                <a href="">FAQ</a>
+                <a href="">help center</a>
+                <a href="">term of use</a>
+                <a href="">privacy</a>
+                <a href="">cookie preferencie</a>
+                <a href="">corporate imformation</a>
+            </article>
         </section>
     </footer>
 </body>
