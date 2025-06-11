@@ -16,18 +16,18 @@
             <h2>sign in</h2>
 
             <div id="warn">
-                <p>incorrect password for </p><span id="email_wrong">email@exemle.com</span>
-                <p>You can <a href="">use a sign-in code</a>, <a href="">reset your password</a> or try again.</p>
+                <span>incorrect password for </span><span id="email_wrong">email@exemle.com</span>
+                <span>,You can <a href="">use a sign-in code</a>, <a href="">reset your password</a> or try again.</span>
             </div>
 
             <form action="#" method="get">
-                <input type="text" name="email_number" class="text_box" id="iemail_number" placeholder="Email or mobile number">
+                <input type="text" name="email_number" class="text_box" id="iemail_number" placeholder="Email or mobile number" onfocus="warn_email()" onblur="warn_email()">
                 <div id="warn_email">
                     <img src="image/wrong.png">
                     <p>Please enter valid email or phone number.</p>
                 </div>
                 <input type="password" name="password" class="text_box" id="ipassword" placeholder="Password">
-                <input type="button" translate="no" value="sign in" id="signin">
+                <input type="button" translate="no" value="sign in" id="signin" onclick="wrong_password()">
             </form>
             <p>or</p>
             <input type="button" value="use a sign-in code" translate="no" id="signincode">
@@ -55,5 +55,7 @@
             </article>
         </section>
     </footer>
+
+    <script src="script/form_verify.js"></script>
 </body>
 </html>

@@ -22,6 +22,7 @@ main{
 }
 
 div#warn{
+    display: none;
     font-size: 14px;
     border-radius: 3px;
     padding: 10px;
@@ -29,14 +30,15 @@ div#warn{
     color: black;
     margin-bottom: 25px;
 }
-div#warn > p > strong{
+div#warn > span > strong{
     display: inline;
 }
-div#warn > p > strong,div#warn > p > span, div#warn > p > a{
+div#warn > span > strong,div#warn > span > span, div#warn > span > a{
     color: black;
-
 }
+
 div#warn_email{
+    display: none;
     margin-top: -15px;
     margin-bottom: 15px;
 }
