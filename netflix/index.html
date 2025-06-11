@@ -12,11 +12,20 @@
         <section>
             <img src="image/logo.png" alt="logo-netflix">
         </section>
-        <div id="warn"></div>
         <section id="main">
             <h2>sign in</h2>
+
+            <div id="warn">
+                <p>incorrect password for </p><span id="email_wrong">email@exemle.com</span>
+                <p>You can <a href="">use a sign-in code</a>, <a href="">reset your password</a> or try again.</p>
+            </div>
+
             <form action="#" method="get">
                 <input type="text" name="email_number" class="text_box" id="iemail_number" placeholder="Email or mobile number">
+                <div id="warn_email">
+                    <img src="image/wrong.png">
+                    <p>Please enter valid email or phone number.</p>
+                </div>
                 <input type="password" name="password" class="text_box" id="ipassword" placeholder="Password">
                 <input type="button" translate="no" value="sign in" id="signin">
             </form>
@@ -27,7 +36,7 @@
                 <input type="checkbox" name="remenber" id="iremenber" checked>
                 <label for="iremenber">Remenber me</label>
             </div>
-            <div>
+            <div id="extra">
                 <p>Now to Netflix?</p>
                 <a href="">Sign up now</a>
             </div>
